@@ -1,0 +1,79 @@
+{
+  "optimization_summary": {
+    "initial_dataset_size": 621,
+    "final_dataset_size": 636,
+    "total_iterations": 5,
+    "total_calculations": 16,
+    "model_versions": 6
+  },
+  "performance_results": {
+    "initial_best_performance": 1.0,
+    "final_best_performance": 1.0,
+    "improvement": 0.0,
+    "relative_improvement_percent": 0.0
+  },
+  "best_composition": {
+    "Co": 11.2,
+    "Mo": 5.3,
+    "Ti": 3.0,
+    "Fe": 80.5
+  },
+  "optimization_history": [
+    {
+      "iteration": 1,
+      "candidates_generated": 3,
+      "successful_calculations": 3,
+      "new_samples_added": 3,
+      "total_samples": 624,
+      "best_performance": 1.0,
+      "best_composition": "[11.2  5.3  3.  80.5]",
+      "iteration_time": 3.2161502838134766,
+      "timestamp": "2025-05-26T20:57:07.666461"
+    },
+    {
+      "iteration": 2,
+      "candidates_generated": 3,
+      "successful_calculations": 3,
+      "new_samples_added": 3,
+      "total_samples": 627,
+      "best_performance": 1.0,
+      "best_composition": "[11.2  5.3  3.  80.5]",
+      "iteration_time": 1.9920899868011475,
+      "timestamp": "2025-05-26T20:57:09.658594"
+    },
+    {
+      "iteration": 3,
+      "candidates_generated": 3,
+      "successful_calculations": 3,
+      "new_samples_added": 3,
+      "total_samples": 630,
+      "best_performance": 1.0,
+      "best_composition": "[11.2  5.3  3.  80.5]",
+      "iteration_time": 1.9964396953582764,
+      "timestamp": "2025-05-26T20:57:11.672090"
+    },
+    {
+      "iteration": 4,
+      "candidates_generated": 3,
+      "successful_calculations": 3,
+      "new_samples_added": 3,
+      "total_samples": 633,
+      "best_performance": 1.0,
+      "best_composition": "[11.2  5.3  3.  80.5]",
+      "iteration_time": 2.0248985290527344,
+      "timestamp": "2025-05-26T20:57:13.697025"
+    },
+    {
+      "iteration": 5,
+      "candidates_generated": 3,
+      "successful_calculations": 3,
+      "new_samples_added": 3,
+      "total_samples": 636,
+      "best_performance": 1.0,
+      "best_composition": "[11.2  5.3  3.  80.5]",
+      "iteration_time": 2.0001330375671387,
+      "timestamp": "2025-05-26T20:57:15.711521"
+    }
+  ],
+  "timestamp": "2025-05-26T20:57:15.711600"
+}

@@ -14,10 +14,24 @@ import seaborn as sns
 from scipy import stats
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
+# from tensorflow import keras
+# from tensorflow.keras import layers
+# from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
+# from tensorflow.keras.layers import (
+#     Conv1D,
+#     MaxPooling1D,
+#     Flatten,
+#     Dense,
+#     Dropout,
+#     Lambda,
+# )
+# from tensorflow.keras.models import Sequential
+# from tensorflow.keras.optimizers import Adam
+
 from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-from tensorflow.keras.layers import (
+from keras import layers
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+from keras.layers import (
     Conv1D,
     MaxPooling1D,
     Flatten,
@@ -25,8 +39,8 @@ from tensorflow.keras.layers import (
     Dropout,
     Lambda,
 )
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.optimizers import Adam
+from keras.models import Sequential
+from keras.optimizers import Adam
 
 
 @dataclass
